@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+.loader{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border-top:  0.5rem solid white ;
+    place-self: center;
+    margin-top: 12%;
+    animation: spin-animate 1s linear 0s infinite normal; 
+}
+@keyframes spin-animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
